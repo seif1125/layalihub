@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" localhost:3000/images/frame-card.jpg)",
+      "Bash(curl -s -o /dev/null -w \"page %{http_code}\\\\n\" localhost:3000/customize/theme1)",
+      "Bash(curl -s -o /dev/null -w \"song %{http_code} %{content_type}\\\\n\" \"localhost:3000/music/Johann%20Pachelbel%20-%20Canon%20in%20D%20Jacob's%20Piano.mp3\")"
+    ]
+  }
+}
